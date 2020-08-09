@@ -54,6 +54,7 @@ spec:
           description: FooStatus defines the observed state of Foo
           properties:
             availableReplicas:
+              description: This is equal to deployment.status.available
               format: int32
               type: integer
           type: object
